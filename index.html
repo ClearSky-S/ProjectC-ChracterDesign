@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: #3B3B3B;
+            padding: 0px;
+        }
+
+        #title-bar {
+            /* margin: 0px; */
+            background-color: #363636;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 10;
+        }
+        #background-gradation{
+        margin-top: 70px;
+        background-image: linear-gradient( rgba(66, 66, 66, 0.781), rgba(0, 0, 0, 0));
+        height: 80px;
+        z-index: -2;
+        }
+
+        h1 {
+            margin: 0px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: rgb(226, 226, 226);
+        }
+
+        p {
+            color: rgb(226, 226, 226);
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 1fr 1000px 1fr;
+            text-align: center;
+        }
+        .char {
+            margin-top: 0px;
+            margin-bottom: 60px;
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 160px;
+            height: 480px;
+            display: inline-block;
+        }
+
+        .char>a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 160px;
+            height: 480px;
+            touch-action: manipulation;
+            z-index: 10;
+        }
+
+        .char-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .char .index-gradation {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        .index-name-container {
+            position: absolute;
+            bottom: 5%;
+            left: 0%;
+            width: 100%;
+            z-index: 3;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .index-name {
+            position: relative;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="index.html">
+        <div id=title-bar>
+            <h1>Character Design</h1>
+        </div>
+    </a>
+    <div id="background-gradation"></div>
+    <div id="grid">
+        <div></div>
+        <div class="chars-container">
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/maya-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Maya</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/sophia-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Sophia</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/talvi-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">talvi</div>
+                </div>
+            </div>
+            
+
+
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/maya-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Maya</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/sophia-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Sophia</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/talvi-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">talvi</div>
+                </div>
+            </div>
+
+
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/maya-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Maya</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/sophia-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">Sophia</div>
+                </div>
+            </div>
+            <div class="char">
+                <a href='index.html'></a>
+                <img class="char-img" src="images/talvi-index.png">
+                <img class="index-gradation" src="images/index-gradation.png">
+                <div class="index-name-container">
+                    <div class="index-name">talvi</div>
+                </div>
+            </div>
+   
+        </div>
+        <div></div>
+    </div>
+</body>
+
+</html>
