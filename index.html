@@ -6,162 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Design</title>
-    <style>
-        body {
-            margin: 0px;
-            background-color: #3B3B3B;
-            padding: 0px;
-
-        }
-
-        #title-bar {
-            margin: 0px;
-            background-color: #363636;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 85px;
-            z-index: 100;
-            text-align: center;
-        }
-        h1 {
-            color: rgb(226, 226, 226);
-        }
-
-        #background-gradation {
-            position: absolute;
-            top: 70px;
-            left:0;
-            right: 0;
-            background-image: linear-gradient(rgba(66, 66, 66, 0.781), rgba(0, 0, 0, 0));
-            height: 80px;
-            z-index: -2;
-        }
-
-
-        p {
-            color: rgb(226, 226, 226);
-        }
-
-        #grid {
-            display: grid;
-            grid-template-columns: 1fr 1000px 1fr;
-            text-align: center;
-        }
-
-
-
-        #chars-container {
-            margin-top: 150px;
-        }
-
-        .char {
-            margin-top: 0px;
-            margin-bottom: 60px;
-            position: relative;
-            width: 160px;
-            height: 480px;
-            display: inline-block;
-        }
-
-
-        .char-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 1;
-            height: 100%;
-            width: 100%;
-        }
-
-        .char .index-gradation {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 2;
-            opacity: 1;
-            height: 100%;
-            width: 100%;
-        }
-
-        .char .index-gradation:hover {
-            opacity: 0.7;
-        }
-
-        .index-name-container {
-            position: absolute;
-            bottom: 5%;
-            left: 0%;
-            width: 100%;
-            z-index: 11;
-            text-align: center;
-            color: white;
-            font-size: 30px;
-            font-weight: bold;
-            pointer-events: none
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        @media(max-width: 1100px) {
-            #grid {
-                display: grid;
-                grid-template-columns: 1fr 680px 1fr;
-                text-align: center;
-            }
-
-            .char {
-                width: 210px;
-                height: 630px;
-            }
-
-        }
-
-        @media(max-width: 680px) {
-            #grid {
-                display: grid;
-                grid-template-columns: 1fr 600px 1fr;
-                text-align: center;
-            }
-
-            .char {
-                width: 190px;
-                height: 570px;
-            }
-        }
-
-        @media(max-width: 600px) {
-            #grid {
-                display: grid;
-                grid-template-columns: 1fr 500px 1fr;
-                text-align: center;
-            }
-
-            .char {
-                width: 160px;
-                height: 480px;
-            }
-
-        }
-        @media(max-width: 500px) {
-            #grid {
-                display: grid;
-                grid-template-columns: 1fr 400px 1fr;
-                text-align: center;
-            }
-
-            .char {
-                width: 125px;
-                height: 375px;
-            }
-
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -178,12 +23,12 @@
 
 
             <div class="char">
-                <img class="char-img" src="images/500.png">
-                <a href='index.html'>
+                <img class="char-img" src="images/maya-index.png">
+                <a href='maya.html'>
                     <img class="index-gradation" src="images/index-gradation.png">
                 </a>
                 <div class="index-name-container">
-                    <div class="index-name">1</div>
+                    <div class="index-name">Maya</div>
                 </div>
             </div>
 
