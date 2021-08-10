@@ -1,8 +1,8 @@
 maya	sophia	elena	: agent
 akiko/	valentina	lucia	: dark
 tokemi	bella	lilith/	: dark
-umi	youko	rika/	: east
+10 umi	youko	rika/	: east
 cordelia	stella	luna/	: magic
-talvi	nadira	anne	: etc
-charlotte	lia
+16 talvi	nadira	lia	: etc
+charlotte	anne
 
